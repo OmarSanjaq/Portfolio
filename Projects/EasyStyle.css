@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+header li,a,button{
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+font-size: 16px;
+color:#000;
+text-decoration: none;
+}
+
+header{
+    background-color: #24252A;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+    
+}
+.mylogo{
+    margin-right: auto;
+    cursor: pointer;
+    width: 70px;
+    
+}
+.nav__links{
+    list-style: none; 
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    color: #fff;
+    
+}
+.nav__links li a:hover{
+    color: #FB8122;
+}
+.logo{
+    text-decoration: none;
+    color: #fff ;
+    text-transform: uppercase ;
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-right: auto;
+}
+.navigation a{
+    color: #161F6D ;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: #FB8122;
+}
+
+
+
+.content{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color:#233142;
+
+}
+
+.mainDiv{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+}
+.photo{
+    flex:0;
+    margin-right: 20px;
+    max-width: 40%;
+    border-radius: 20%;
+}
+.hed{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+
+}
+.txt{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-left: 30px;
+    line-height: 1.5;
+}
+
+.footer{
+    background-color: #24252A;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer a{
+    color: #fff;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    font-size: 30px;
+}
